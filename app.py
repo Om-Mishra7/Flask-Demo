@@ -64,5 +64,5 @@ def sign_in():
             return 'Invalid credentials'
     return render_template('sign-in.html')
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     app.run(host='0.0.0.0')
